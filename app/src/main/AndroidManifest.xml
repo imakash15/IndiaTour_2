@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="we3infotech.indiatour.com.indiatour">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+<!--minds of ips: Akash kushwah batch number 05513485,  Hackathon 4.0-->
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".Northpack.North" />
+        <activity
+            android:name=".OnItemClic"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Rajasthan.Rj" />
+        <activity android:name=".Maharastra.Mh" />
+        <activity android:name=".Westbanga.Wb" />
+        <activity android:name=".assam.Assam" />
+        <activity android:name=".Up.up" />
+        <activity android:name=".Delhi.Delhi" />
+        <activity android:name=".Gujarat.Gj" />
+        <activity android:name=".Haryana.Haryana" />
+        <activity android:name=".Himachal.Hp" />
+        <activity android:name=".Jammu.Jk" />
+        <activity android:name=".oddisa.Oddisa" />
+        <activity android:name=".UK.Uk" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
